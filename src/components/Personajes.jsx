@@ -17,7 +17,7 @@ const Personajes = () => {
   return (
     <div>
       <div className="header">
-        <h2>Algunos personajes de <span>Rick and Morty</span></h2>
+        <h2>Rick <span>and</span> Morty</h2>
         <form action="">
           <input
             onChange={(e) => setPersonajeId(e.target.value)}
